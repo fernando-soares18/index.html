@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <a class="link-menu">product</a>
-    <a class="link-menu">company</a>
-    <a class="link-menu">log in</a>
-    <a class="link-menu">blog</a>
-    <button class="button-sign-up">sign in</button>
-<main>
-<img src="./imagem223.png">
-
-
-<div>
-       <h1>wide coverade location</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ab distinctio laboriosam accusamus. At hic distinctio, illo ad nesciunt vel non earum, quidem ullam repellat, maiores ab! Ab, aliquam eum!</p>
-       <button class="larn-more-up">learn more</button>
-
-
-</div>
-
-
-
-
-  </header>  
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>ANTARES CONSTRUTORA</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">sobre</a></li>
+                    <li><a href="#projetos">projetos</a></li>
+                    <li><a href="#contato">contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="sobre">
+                <h1>bem-vindos a construtora Antares</h1>
+                <p>construindo casas desde 2010 com a maior tecnologia em obras
+                    sempre visando o maior conforto para o cliente e sempre com
+                    as melhores condiçoes do mercado eu guilherme reis sou o
+                    responsavel direto pelas obras </p>
+            </section>
+            <section id="projetos">
+                <h2>projetos recentes</h2>
+                <div class="projeto">
+                    <img src="imagensguilherme/imagem guilherme.jpg"
+                        alt="projeto 1">
+                    <h3>casa classica</h3>
+                    <p>area: 180 m²</p>
+                </div>
+                <div class="projeto">
+                    <img src="imagensguilherme/imagem casa guilherme.jpg"
+                        alt="projeto 2">
+                    <h3>casa moderna</h3>
+                    <p>area: 120 m²</p>
+                </div>
+            </section>
+            <section id="contato">
+                <h2>entre em contato</h2>
+                <p>whatsapp:<a href="https://wa.me/"
+                        target="_blank">envie mensagem</a></p>
+                <p>email:</p>
+                <button class="botao-whatsaap">fale conosco no whatsaap</button>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 antares contrutora de casas. todos os direitos
+                reservados</p>
+        </footer>
+        <script>
+        const botaowhatsaap= document.queryselector('botao-whatsapp');botaowhatsaap.eddEventlistener('clik',()=>{window.open('https://wa.me/','_blank');});
+    </script>
+    </body>
 </html>
