@@ -27,8 +27,8 @@ body {
   }
   
   .hero {
-    background-image: url('fundo-hero.jpg');
-    background-size: cover;
+    background-image: url('img/fundo hero jpg.jpg');
+    background: size 200px;
     height: 100vh;
     display: flex;
     justify-content: center;

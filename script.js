@@ -1,6 +1,6 @@
 window.addEventListener('scroll', () => {
     const header = document.querySelector('header');
-    header.classList.toggle('sticky', window.scrollY > 0);
+    header.classList.toggle('sticky', window.scroll > 0);
   });
   
   // Efeito de transição para o botão
