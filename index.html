@@ -1,58 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt br">
+<html lang="pt-">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>super mario bros</title>
         <link rel="stylesheet" href="style.css">
-        <title>ANTARES CONSTRUTORA</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#sobre">sobre</a></li>
-                    <li><a href="#projetos">projetos</a></li>
-                    <li><a href="#contato">contato</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="sobre">
-                <h1>bem-vindos a construtora Antares</h1>
-                <p>construindo casas desde 2010 com a maior tecnologia em obras
-                    sempre visando o maior conforto para o cliente e sempre com
-                    as melhores condiçoes do mercado eu guilherme reis sou o
-                    responsavel direto pelas obras </p>
-            </section>
-            <section id="projetos">
-                <h2>projetos recentes</h2>
-                <div class="projeto">
-                    <img src="imagensguilherme/imagem guilherme.jpg"
-                        alt="projeto 1">
-                    <h3>casa classica</h3>
-                    <p>area: 180 m²</p>
-                </div>
-                <div class="projeto">
-                    <img src="imagensguilherme/imagem casa guilherme.jpg"
-                        alt="projeto 2">
-                    <h3>casa moderna</h3>
-                    <p>area: 120 m²</p>
-                </div>
-            </section>
-            <section id="contato">
-                <h2>entre em contato</h2>
-                <p>whatsapp:<a href="https://wa.me/"
-                        target="_blank">envie mensagem</a></p>
-                <p>email:</p>
-                <button class="botao-whatsaap">fale conosco no whatsaap</button>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2025 antares contrutora de casas. todos os direitos
-                reservados</p>
-        </footer>
-        <script>
-        const botaowhatsaap= document.queryselector('botao-whatsapp');botaowhatsaap.eddEventlistener('clik',()=>{window.open('https://wa.me/','_blank');});
-    </script>
+        <div class="caixa-mae">
+            <div class="caixa-principal">
+                <img src="img/logo.png" alt="logo super mario bros"
+                    class="logo">
+                <p>Encanadores mario e luigi resolvendo seus problemas com
+                    estilo</p>
+                <p>Voce ja se encontrou em uma situaçao de emergencia com seu
+                    encanamento? voce tem torneiras que nao param de pingar?nao
+                    se
+                    preocupe pois estamos aqui para te ajudar sommos os famosos
+                    encanadores do mundo dos cogumelos mario e luigi</p>
+                <button>entre em contato</button>
+            </div>
+        </div>
+        <div>
+            <img src="img/mario.png" alt="mario" class="mario">
+        </div>
     </body>
+    <div class="video-container">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+    </div>
+
 </html>
