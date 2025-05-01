@@ -1,56 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt BR">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fernando soares da rosa</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconect" href="https://fonts.googleapis.com">
-    <link rel="preconnect">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fernando soares da rosa</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconect" href="https://fonts.googleapis.com">
+        <link rel="preconnect">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap"
+            rel="stylesheet">
+    </head>
 
-<body>
-    <div class="caixa-principal">
-        <nav>
-            <h2 class="portifolio">Portifo<span>lio</span></h2>
-            <ul>
-                <li><a>home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>projetos</a></li>
-                <li><a>fale comigo</a></li>
-            </ul>
-        </nav>
-        <div class="meu-nome">
-            <h1>Fernando <span> Soares </span></h1>
-            <h3>Desenvolvedor Front-end</h3>
+    <body>
+        <div class="caixa-principal" id="home">
+            <nav>
+                <h2 class="portifolio">Portifo<span>lio</span></h2>
+                <ul>
+                    <li><a class="link-menu" href="#home">Home</a></li>
+                    <li><a class="link-menu" href="#sobre">Sobre</a></li>
+                    <li><a class="link-menu"
+                            href="#projetos-id">Projetos</a></li>
+                    <li><a class="link-menu" href="#fale-comigo">Fale
+                            comigo</a></li>
+                </ul>
+            </nav>
+            <div class="meu-nome">
+                <h1>Fernando <span> Soares </span></h1>
+                <h3>Desenvolvedor Front-end</h3>
 
+            </div>
         </div>
     </div>
-    </div>
-    <section>
-        <img src="img/IMG_20241016_215758-removebg-preview.png" alt="">
+    <section id="sobre">
+        <img src="img/IMG_20241016_215758-removebg-preview.png" alt>
         <div>
             <h2>Sobre mim</h2>
-            <p>sou um programador front end,tenho experiencia e conhecimento criando aplicaçaoes com
+            <p>sou um programador front end,tenho experiencia e conhecimento
+                criando aplicaçaoes com
                 HTML,CSS,JavaScript,react e Node</p>
-                <button>entre em contato</button>
+            <button>entre em contato</button>
         </div>
     </section>
-    <div class="projetos">
+
+    <div class="projetos" projetos-id>
         <h2>alguns Projetos</h2>
-        <div class="card">
-            <img src="./img/netflix.png">
-            <h5>netflix</h5>
-            <p>projeto feito com base no aplicativo original onde fiz
-            cada linha de codigo,com intuito de treinar e aprimorar minhas abilidades</p>
-            <a>ver projeto</a>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="./img/netflix.png">
+                <h5>Netflix</h5>
+                <p>projeto feito com base no aplicativo original onde fiz
+                    cada linha de codigo,com intuito de treinar e aprimorar
+                    minhas
+                    abilidades</p>
+                <a href="https://peaceful-starlight-02739b.netlify.app/"
+                    target="_blank">ver projeto</a>
+            </div>
+            <div class="card">
+                <img src="./img/starbucks.png">
+                <h5>Starbucks</h5>
+                <p>projeto feito com base no aplicativo original onde fiz
+                    cada linha de codigo,com intuito de treinar e aprimorar
+                    minhas
+                    abilidades</p>
+                <a href="https://www.starbucks.com.br/" target="_blank">ver
+                    projeto</a>
+            </div>
+            <div class="card">
+                <img src="./img/crono.png">
+                <h5>Cronometro</h5>
+                <p>projeto feito durante uma aula do Devclub onde foi feito cada
+                    linha de codigo com intuito de aprimorar minhas
+                    abilidaes</p>
+                <a href="https://cronometro-mpdz.netlify.app/"
+                    target="_blank">ver projeto</a>
+            </div>
 
         </div>
-      
-    </div>
-</body>
+        <div>
+            <footer id="fale-comigo">
+                <h5>Fernando soares</h5>
+                <p>Para mais informaçoes</p>
+
+                <div class="redes-sociais">
+                    <a
+                        href="https://www.linkedin.com/in/fernando-soares-da-rosa-programador519994931555HTTPS"target="blank"><img
+                            src="./img/linkedin.png"></a>
+                    <a href="https://github.com/fernando-soares18" target="blank"><img
+                            src="./img/github img.png"></a>
+                    <a href="tel:+5551999493155"><img
+                            src="./img/telefone.png"></a>
+                    <a href="https://w.app/ujsrru"target="blank"><img
+                            src="./img/img wpp.png"></a>
+                </div>
+
+            </footerid>
+        </div>
+
+    </body>
 
 </html>
